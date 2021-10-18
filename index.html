@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMS Charts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+</head>
+
+<body>
+
+
+
+
+
+    <div class="masthead">
+        <div class="headermenu">
+
+
+            <div class="img">
+                <img src="pic/whiteBMS2.png" style="width: 130px;"></div>
+            <div class="menu-right">
+
+                <ul class="menu" id="menu">
+                    <li>
+                        <a href="#.pierson">PIERSON</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">MODULE</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">REPORT</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">ITEMS</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">INWARDS</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">SALES</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">DASHBOARD</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="company-title">SANDBOX</div>
+        </div>
+    </div>
+
+    <div class="subhead">
+        <div class="subheadermenu">
+            <div class="submenu-right">
+                <div class="title">PERFORMANCE</div>
+                <div class="subtitle">GRAPHS</div>
+                <ul class="submenu" id="menu">
+                    <li>
+                        <a href="#.pierson">PACK LIST</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">NOTES</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">ATTACH</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">FREIGHT</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">ITEMS</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">MAIN</a>
+                    </li>
+                    <li>
+                        <a href="#.pierson">DASHBOARD</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Charts
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <canvas id="cookieChart" width="50" height="20"></canvas>
+
+    <canvas id="cookieChart2" width="50" height="20"></canvas>-->
+
+
+    <!--Charts-->
+    <div class="grid">
+
+
+        <!--BAR GRAPH-->
+        <div class="container">
+            <div class="wrapper">
+                <div class="chart-medium ">
+                    <canvas id="newchart" width="250" height="200"></canvas>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--LINE GRAPH 1-->
+        <div class="container2">
+            <div class="wrapper">
+                <div class="chart-medium ">
+                    <canvas id="newchart2" width="250" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+        <!--LINE GRAPH 2
+        <div class="container">
+            <div class="wrapper">
+                <div class="chart-medium ">
+                    <canvas id="newchart3" width="250" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        -->
+
+        <!--
+        <div class="container3">
+            <div class="chart-medium2">
+                <canvas id="newchart3" width="100" height="100"></canvas>
+            </div>
+        </div>-->
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="config.js"></script>
+    <script src="setup.js"></script>
+    <script src="actions.js"></script>
+    <!--<script src="chart.js"></script>-->
+
+
+
+    <!-- Footer End -->
+    <footer>
+        <div class="words">
+            <a>Copyright GMT & Pierson Associates</a>
+        </div>
+    </footer>
+
+    <!-- Loading icon -->
+    <div class="loading">
+        <span class="loader"><span class="loader-inner"></span></span>
+        <!--<span class="loader2"><img src="pic/gmt.png" alt="GMT Logo" height="100px" width="100px"><span class="loader-inner"></span></span>-->
+    </div>
+
+    <!-- Loading fade jquery -->
+    <script>
+        $(window).on("load", function() {
+            $(".loading").fadeOut(1000);
+
+
+        });
+    </script>
+
+</body>
+
+</html>
